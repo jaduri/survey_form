@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="">
+    <link rel="stylesheet" href="main.css"/>
+    <title></title>
+  </head>
+  <body>
+  <div id="travel-survey">
+  <h1 id="title">Travel Survey</h1>
+  <p id="description">Let us know how to improve your travel experience</p>
+  <div id="form-content">
+  <form id="survey-form">
+    <div class="form-part" id="dets">
+    <label for="name" class="input-label" id="name-label">Name</label>
+    <input type="text" id="name" placeholder="What's your name" required><br><br>
+    <label for="email" class="input-label" id="email-label">Email</label>
+    <input type="email" id="email"  placeholder="Type email here"required><br><br>
+    <label for="number" class="input-label" id="number-label">Age</label>
+    <input type="number" id="number" min="16" max="60" placeholder="What's your age?"><br><br><br>
+    <label for="dropdown">What kind of tourist are you?</label>
+    <select id="dropdown">
+      <option value="value1">Local</option>
+      <option value="value2">Inter-state</option>
+      <option value="value3">International</option>
+    </select>
+    </div>
+    <div class="form-part" id="selectors">
+    <label for="radio-buttons">Did you enjoy your trip?</label>
+    <li class="list-item"><label><input name="radio-buttons" type="radio" value="positive"> Yes! it was great.</label></li>
+    <li class="list-item"><label><input name="radio-buttons" type="radio" value="undecided"> Could be better</label></li>
+    <li class="list-item"><label><input name="radio-buttons" type="radio" value="negative"> No</label></li>
+      <br>
+    <label for="checkbox">What did you like to experience?</label>
+    <li class="list-item"><input type="checkbox" name="check1" value="check1">Food & Drink</li>
+    <li class="list-item"><input type="checkbox" name="check2" value="check2">Heritage</li></li>
+    <li class="list-item"><input type="checkbox" name="check3" value="check3">The Outback</li>
+    <li class="list-item"><input type="checkbox" name="check4" value="check4">Wine</li>
+    <li class="list-item"><input type="checkbox" name="check5" value="check5">Wildlife</li>
+    </div>
+    <div class="form-part" id="final">
+    <textarea name="comments" rows="10" column="30">Comments</textarea><br>
+    <input type="submit" value="Submit" id="submit">
+    </div>
+  </form>
+  </div>
+  </div>
+
+
+  </body>
+  <script type="text/javascript" src="main.js">
+
+  </script>
+</html>

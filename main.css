@@ -1,0 +1,97 @@
+#travel-survey {
+  color: #fff;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 2px 10px;
+  background: linear-gradient(90deg, #6400f0, #b400f0);
+}
+
+#title, #description {
+  font-size: 35px;
+  text-align: center;
+  font-family: calibri;
+}
+#description {
+  font-size: 17px;
+}
+
+#form-content {
+  margin: auto;
+  max-width: 400px;
+  padding: 5px 20px;
+  border: 4px solid lightgray;
+  border-radius: 30px;
+  font-family: verdana;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.input-label {
+  display: inline-block;
+  min-width: 100px;
+  margin: 5px 0;
+}
+#email, #name, #number{
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  padding-left: 10px;
+  transition: box-shadow 0.2s ease-out;
+  width: 90%;
+}
+#email:focus, #name:focus, #number:focus{
+  outline: none;
+  box-shadow: 0 0 5px 1px #61d0ff;
+}
+.list-item {
+  display: block;
+  margin: 10px 0;
+}
+.form-part {
+  margin: 20px auto;
+}
+#dropdown {
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+}
+#dropdown:focus {
+  outline: none;
+  box-shadow: 0 0 5px 1px #61d0ff;
+}
+
+textarea {
+  border: none;
+  border-radius: 5px;
+  min-width: 250px;
+  max-width: 300px;
+  min-height: 80px;
+  max-height: 500px;
+}
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px 1px #61d0ff;
+}
+#submit {
+  background: linear-gradient(90deg, #b400f0, #6400f0);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #454545;
+  color: white;
+  font-weight: bold;
+  height: 30px;
+  margin: 10px 0 0 0;
+  transition: box-shadow 0.2s linear;
+  width: 90px;
+}
+#submit:hover {
+  box-shadow: 0 0 15px #454545;
+}
+
+/* @media (max-width: 850px){
+
+} */
